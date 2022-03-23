@@ -1,0 +1,67 @@
+@import "reset.css";
+
+body{
+    background: #222629;
+    font-family: system-ui;
+    height: 100vh;
+    width: 100vw;
+    color: #e2b714;
+}
+.links{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.main{
+    justify-content: center;
+}
+
+.links a{
+    text-decoration: none;
+    border: solid black 1px;
+    color: antiquewhite;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.content{
+    margin: 3%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+
+.contentCard{
+    display: flex;
+    background: #86c232;
+    height: 260px;
+    width: 260px;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 30px;
+    border: #e2b714 solid 1px;
+    border-bottom: 4px solid #e2b714;
+    color: #000509;
+    font: bold;
+}
+.imgBackground{
+    background: url(../img/eye.jpg);
+    background-size: cover;
+}
+footer{
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    color: #86c232;
+}
+
+
+@media only screen and (max-width: 880px) {
+    .contentCard{
+        width: 100vw;
+    }
+  }
