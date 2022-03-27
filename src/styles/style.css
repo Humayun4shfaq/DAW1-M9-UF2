@@ -1,0 +1,108 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:ital,wght@0,300;0,700;1,700;1,900&display=swap');
+
+
+body {
+    background: #ffffff;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto';
+}
+
+header {
+    width: 100vw;
+    height: 9vh;
+    border: black solid 1px;
+}
+
+footer {
+    display: grid;
+    width: 100vw;
+    border: black solid 1px;
+    justify-content: center;
+    padding: 2px;
+    font-size: 25px;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-style: italic;
+}
+
+header a {
+    border: 1px solid black;
+    padding: 1%;
+    text-decoration: none;
+    margin: 5px;
+    color: #000;
+    text-shadow: -3px 3px 3px rgba(0, 0, 0, 0.25);
+    font-family: 'Playfair Display';
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sName{
+    font-family: 'Roboto';
+    position: absolute;
+    right: 50px;
+    align-items: center;
+    text-shadow: -3px 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contentCard {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: #000 solid 1px;
+    box-shadow: -15px 15px 8px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.contentCard h1{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    color: #000000;
+    text-shadow: -3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+footer h3 {
+    text-shadow: -3px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.eyeImg {
+    background: url(../../public/assets/eye.webp);
+    background-size: cover;
+}
+
+.soundImg {
+    background: url(../../public/assets/sound.webp);
+    background-size: cover;
+}
+
+.contentCard:hover {
+    transform: scale(1.5);
+    background-color: #ffffff;
+    transition: 200ms ease;
+    z-index: 2;
+}
+/*
+@media only screen and (max-width: 880px) {
+    .contentCard{
+        width: 100vw;
+    }
+  } */
