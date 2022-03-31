@@ -85,12 +85,12 @@ footer h3 {
 }
 
 .eyeImg {
-    background: url(../../public/assets/eye.webp);
+    background: url(/assets/eye.webp);
     background-size: cover;
 }
 
 .soundImg {
-    background: url(../../public/assets/sound.webp);
+    background: url(/assets/sound.webp);
     background-size: cover;
 }
 
