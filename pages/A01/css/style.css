@@ -1,0 +1,31 @@
+@font-face {
+    font-family: lotrFont;
+    src: url(RINGM___.TTF);
+  }
+  
+@import url(lightbox.css);
+*{
+    box-sizing: border-box;
+    font-family: lotrFont,'Segoe UI';
+}
+body{
+    background-color: rgb(57, 7, 7);
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    font-size: x-large;
+}
+
+.modal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.modal a{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
