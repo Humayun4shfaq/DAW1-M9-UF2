@@ -105,7 +105,10 @@ footer h3 {
     background: url(../img/sound.webp);
     background-size: cover;
 }
-
+.videoImg {
+    background: url(../img/video.png);
+    background-size: cover;
+}
 .contentCard:hover {
     transform: scale(1.5);
     background-color: #ffffff;

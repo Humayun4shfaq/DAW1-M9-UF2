@@ -1,0 +1,41 @@
+@import url(cssreset.css);
+
+@font-face {
+    font-family: 'Tapestry';
+    src: url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+}
+body{
+    background-image: url('../media/background.jpg');
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'Tapestry';
+    font-size: xx-large;
+    color: yellow;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    height: fit-content;
+    max-width: 550px;
+    filter: grayscale(1);
+    margin-top: 10px;
+}
+
+.box video {
+    width: 100%;
+    height: 100%;
+}
+
+.box:hover {
+    filter: grayscale(0);
+    align-self: center;
+}
